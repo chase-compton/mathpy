@@ -1,0 +1,6 @@
+Mean: 5.4
+Median: 5.0
+Standard Deviation: 2.4166091947189146
+-10.0
+-11.0
+-10.0

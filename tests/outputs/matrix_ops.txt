@@ -1,0 +1,6 @@
+Matrix C (Addition):
+[[ 3.  7.]
+ [11. 15.]]
+Matrix D (Element-wise Multiplication):
+[[ 2. 12.]
+ [30. 56.]]

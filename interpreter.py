@@ -3,6 +3,7 @@ import numpy as np
 import operator
 import math
 import matplotlib.pyplot as plt
+import sys
 
 
 class Environment:
@@ -31,9 +32,10 @@ class Environment:
 
 
 class Interpreter:
-    def __init__(self):
+    def __init__(self, output_stream=None):
         self.global_env = Environment()
         self.setup_builtins()
+        self.output_stream = output_stream or sys.stdout
 
     def setup_builtins(self):
         # Add built-in functions to the global environment

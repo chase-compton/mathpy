@@ -1,0 +1,17 @@
+# Define coefficients matrix
+A = [
+    [3, 2],
+    [1, 2]
+]
+
+# Define constants vector
+b = [16, 9]
+
+# Calculate the inverse of A
+A_inv = inv(A)
+
+# Solve for x
+x = A_inv * b
+
+print("Solution x:")
+print(x)

@@ -1,0 +1,3 @@
+x is less than y, and y is less than 15
+Positive
+True
