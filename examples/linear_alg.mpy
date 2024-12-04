@@ -1,0 +1,18 @@
+# Define a matrix
+A = [
+    [5, 2],
+    [2, 1]
+]
+
+# Compute eigenvalues and eigenvectors
+eig_result = eig(A)
+eigenvalues = eig_result[0]
+eigenvectors = eig_result[1]
+
+print("Eigenvalues:")
+print(eigenvalues)
+print("Eigenvectors:")
+print(eigenvectors)
+
+print(det(A))
+print(inv(A))

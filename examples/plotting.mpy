@@ -1,0 +1,8 @@
+# Generate x values
+x = linspace(-2 * pi, 2 * pi, 200)
+
+# Calculate y values
+y = sin(x) .* exp(-0.1 * x)
+
+# Plot the function
+plot(x, y)

@@ -1,0 +1,16 @@
+# Sample data
+data = [5, 2, 9, 4, 7]
+
+# Calculate statistics
+mean_value = mean(data)
+median_value = median(data)
+std_dev = std(data)
+
+print("Mean:", mean_value)
+print("Median:", median_value)
+print("Standard Deviation:", std_dev)
+
+x = -10.5
+print(ceil(x))
+print(floor(x))
+print(round(x))

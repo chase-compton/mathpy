@@ -1,0 +1,14 @@
+for i in range(0, 5):
+    print(i)
+end
+
+v = [1,2,3]
+for x in v:
+    print(x)
+end
+
+x = 10
+while x > 0:
+    x = x - 1
+    print(x)
+end

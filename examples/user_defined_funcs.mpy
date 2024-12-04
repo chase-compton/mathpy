@@ -1,0 +1,7 @@
+def add(a, b):
+    print("Adding numbers")
+    return a + b
+end
+
+result = add(5, 7)
+print("Result:", result)
