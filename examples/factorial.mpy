@@ -1,0 +1,12 @@
+def factorial(n):
+        result = 1
+        while n > 1:
+            result = result * n
+            n = n - 1
+        end
+        return result
+    end
+
+    num = 5
+    fact = factorial(num)
+    print("Factorial of", num, "is", fact)
