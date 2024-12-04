@@ -1,4 +1,4 @@
-# MathPy
+# MathPy | CS 403 Final Project
 
 MathPy is a simple, intuitive programming language designed specifically for mathematical computations. It aims to provide an out-of-the-box experience for mathematicians, scientists, and engineers who require a straightforward and efficient tool for numerical analysis, data manipulation, and visualization. MathPy combines the simplicity of high-level languages with the power of mathematical libraries, making it an excellent alternative to tools like MATLAB.
 
